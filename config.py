@@ -108,6 +108,7 @@ class Config(object):
     # Pooled ROIs
     POOL_SIZE = 7
     MASK_POOL_SIZE = 14
+    
     MASK_SHAPE = [28, 28]
 
     # Maximum number of ground truth instances to use in one image
